@@ -24,6 +24,8 @@ store: {
 }
 ```
 
+After configuring the FirebaseStore, you'll be able to edit your contacts in one browser window and see them update in real time in another browser window.
+
 ## create-react-app
 
 Note: mson-getting-started uses [create-react-app](https://github.com/facebook/create-react-app) with very few changes.
