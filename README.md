@@ -5,8 +5,8 @@ This is a sample app that will get you started with MSON. You can think of it as
 # Running the app
 
     $ git clone https://github.com/redgeoff/smon
-    $ npm install
-    $ npm run start
+    $ yarn install
+    $ yarn start
     Visit http://localhost:3000 in a web browser
 
 The app logic resides in [components.js](src/components.js). Look at what you get with just a few lines of MSON!
