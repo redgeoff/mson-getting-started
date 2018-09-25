@@ -4,10 +4,11 @@ This is a sample app that will get you started with [MSON](https://github.com/re
 
 ## Running the app
 
-    $ git clone https://github.com/redgeoff/mson-getting-started
-    $ yarn install
-    $ yarn start
-    Visit http://localhost:3000 in a web browser
+ - $ git clone https://github.com/redgeoff/mson-getting-started
+ - $ cd mson
+ - $ yarn install
+ - $ yarn start
+ - Visit http://localhost:3000 in a web browser
 
 The app logic resides in [components.js](src/components.js). Look at what you get with just a few lines of MSON!
 
