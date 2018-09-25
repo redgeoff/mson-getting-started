@@ -5,7 +5,7 @@ This is a sample app that will get you started with [MSON](https://github.com/re
 ## Running the app
 
  - $ git clone https://github.com/redgeoff/mson-getting-started
- - $ cd mson
+ - $ cd mson-getting-started
  - $ yarn install
  - $ yarn start
  - Visit http://localhost:3000 in a web browser
