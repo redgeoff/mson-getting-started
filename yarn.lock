@@ -8528,10 +8528,10 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-mson@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/mson/-/mson-1.0.0.tgz#99f9bf142b2a75d8d99a3c96fdebc8a819d4a049"
-  integrity sha512-gsx1QVyGLpgyuINEq8iii5ZB9z7s8t9Kb32TgWGgxQBHfR6QTaKRmv8crVSv5DzZ2df6yQqE7MQCRa3d591RfQ==
+mson@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mson/-/mson-1.0.1.tgz#c953b7a1cb12c29996a57125659df0f06e7f4534"
+  integrity sha512-rV7XzH6ImHORkB3jy1bMI5SLdrQEuWdV1Y5HoKCTjfVoX/7LMjx+rqMDU9XYhvjMNMW25LHHRwwSX8sT5lM16A==
   dependencies:
     "@material-ui/core" "^3.1.1"
     apollo-cache-inmemory "^1.2.9"
