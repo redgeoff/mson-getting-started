@@ -1,8 +1,6 @@
-// Note: babel-polyfill is needed by client for compilation
-import 'babel-polyfill';
-
-import mson from 'mson/lib/mson-react';
 import app from './mson-app';
+import * as msonreact from 'mson/lib/mson-react';
+import 'typeface-roboto';
 
-// Render the app using React
-mson.render(app);
+// Render the app
+msonreact.render(app);
