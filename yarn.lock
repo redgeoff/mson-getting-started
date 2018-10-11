@@ -6561,14 +6561,13 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
   integrity sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
 
-mson-react@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/mson-react/-/mson-react-1.0.3.tgz#88fa4b53d575e0d5f48bc2d9b6156e46f635dfe1"
-  integrity sha512-YYdxfoNLCaQqVUU6RHSeOtv4j8JgP8tiETMDtOzWtFtwMAtG2wwgNY1txfF9JplqE2JEiNQiSxPGQqO7niOM3g==
+mson-react@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/mson-react/-/mson-react-1.0.4.tgz#6d0bae68c2c4dd5f6d8ab0624f54c63f1c88a9ae"
+  integrity sha512-t0iPXNvhQv+udETR0njq0DX0HltbklEPZINJGW3iHGrFrUpmboX8+IpxqRp3Xmo6fYa9zOdDb73NK+tNgFKMHQ==
   dependencies:
     date-fns "^2.0.0-alpha.16"
     lodash "^4.17.10"
-    mson "^1.0.3"
     react-google-recaptcha "^1.0.0"
     react-markdown "^4.0.0"
     react-router-dom "^4.3.1"
