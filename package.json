@@ -5,8 +5,8 @@
   "dependencies": {
     "@material-ui/core": "^3.2.0",
     "material-ui-pickers": "^1.0.0-rc.17",
-    "mson": "^1.0.3",
-    "mson-react": "^1.0.4",
+    "mson": "^1.0.5",
+    "mson-react": "^1.0.5",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "^2.0.4",
