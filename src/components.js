@@ -44,7 +44,8 @@ export const contacts = {
   // or some other store. Or, you could create your own custom store to interact with a GraphQL/REST
   // API.
   store: {
-    component: 'LocalStorageStore'
+    component: 'LocalStorageStore',
+    storeName: 'contactsLocalStorage'
   }
 };
 
