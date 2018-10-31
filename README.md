@@ -13,7 +13,7 @@ This is a sample app that will get you started with [MSON](https://github.com/re
 
 The app logic resides in [components.js](src/components.js). Look at what you get with just a few lines of MSON!
 
-## Making it Real Time
+## Making it Real-Time
 
 If you are feeling adventurous, you can make the app real-time capable by using Firebase. Simply sign up for a free account at [firebase.google.com](https://firebase.google.com/) and then modify the store in [components.js](src/components.js) so that it has your details:
 ```js
