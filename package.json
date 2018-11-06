@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.3.2",
-    "material-ui-pickers": "^1.0.1",
+    "material-ui-pickers": "^2.0.0",
     "mson": "^1.0.7",
     "mson-react": "^1.0.7",
     "react": "^16.4.2",
