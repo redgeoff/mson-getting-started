@@ -788,7 +788,6 @@
 "@material-ui/core@^3.3.2":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@material-ui/core/-/core-3.3.2.tgz#ca9ce331ac5a31ef8acc732305967f3e5cfe4934"
-  integrity sha512-3yYGrWBzML7OhzmgwBvWpQnFq9ROWj+so+ULADB+lXjpOuxbUf8IUWbR4/S4chh+8/DTNMjTGIUdpj//XeubLQ==
   dependencies:
     "@babel/runtime" "7.1.2"
     "@types/jss" "^9.5.6"
@@ -816,6 +815,10 @@
     react-transition-group "^2.2.1"
     recompose "0.28.0 - 0.30.0"
     warning "^4.0.1"
+
+"@sheerun/mutationobserver-shim@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.2.tgz#8013f2af54a2b7d735f71560ff360d3a8176a87b"
 
 "@svgr/core@^2.4.1":
   version "2.4.1"
@@ -2301,7 +2304,6 @@ cosmiconfig@^5.0.0, cosmiconfig@^5.0.5, cosmiconfig@^5.0.6:
 country-telephone-data@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/country-telephone-data/-/country-telephone-data-0.6.0.tgz#98711d3b2a692f7558f6ec74f88314c060daf39d"
-  integrity sha512-cscLBeYt+Xo3VNc2H22oJz1oAGMBGP7ymWRSRUzl2oDZSIhjuhSF59RcpWtsz1nCsocrHSpH9dRrf0UiQiISeg==
 
 create-ecdh@^4.0.0:
   version "4.0.3"
@@ -2472,6 +2474,15 @@ css-vendor@^0.3.8:
 css-what@2.1:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.0.tgz#9467d032c38cfaefb9f2d79501253062f87fa1bd"
+
+css@^2.2.3:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/css/-/css-2.2.4.tgz#c646755c73971f2bba6a601e2cf2fd71b1298929"
+  dependencies:
+    inherits "^2.0.3"
+    source-map "^0.6.1"
+    source-map-resolve "^0.5.2"
+    urix "^0.1.0"
 
 cssdb@^3.2.1:
   version "3.2.1"
@@ -2820,6 +2831,14 @@ dom-serializer@0:
   dependencies:
     domelementtype "~1.1.1"
     entities "~1.1.1"
+
+dom-testing-library@^3.12.0:
+  version "3.12.2"
+  resolved "https://registry.yarnpkg.com/dom-testing-library/-/dom-testing-library-3.12.2.tgz#9828a94f6c505780bb1e1e9e29afd319594e01a4"
+  dependencies:
+    "@sheerun/mutationobserver-shim" "^0.3.2"
+    pretty-format "^23.6.0"
+    wait-for-expect "^1.0.0"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -4232,6 +4251,10 @@ indefinite-observable@^1.0.1:
   dependencies:
     symbol-observable "1.0.4"
 
+indent-string@^3.0.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
+
 indexes-of@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/indexes-of/-/indexes-of-1.0.1.tgz#f30f716c8e2bd346c7b67d3df3915566a7c05607"
@@ -4798,6 +4821,18 @@ jest-docblock@^23.2.0:
   resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-23.2.0.tgz#f085e1f18548d99fdd69b20207e6fd55d91383a7"
   dependencies:
     detect-newline "^2.1.0"
+
+jest-dom@^2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/jest-dom/-/jest-dom-2.1.1.tgz#c75515ef31147bd9684c860b0cba9605638fd4dd"
+  dependencies:
+    chalk "^2.4.1"
+    css "^2.2.3"
+    jest-diff "^23.6.0"
+    jest-matcher-utils "^23.6.0"
+    lodash "^4.17.11"
+    pretty-format "^23.6.0"
+    redent "^2.0.0"
 
 jest-each@^23.6.0:
   version "23.6.0"
@@ -5390,7 +5425,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-"lodash@>=3.5 <5", lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0:
+"lodash@>=3.5 <5", lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -5454,7 +5489,6 @@ markdown-escapes@^1.0.0:
 material-ui-pickers@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/material-ui-pickers/-/material-ui-pickers-1.0.1.tgz#396f90fff2f2dbb7c477bce2b9a62101eb3bd26d"
-  integrity sha512-FRJwgeFUQdQxzNAybZvf11204KFBxqKS6sg4JvAO0cWmHULXJhrc9kuEDT8F7Pomwnv6+AyfxygsoMgIRcBMNg==
   dependencies:
     classnames "^2.2.6"
     keycode "^2.2.0"
@@ -5721,24 +5755,25 @@ ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
-mson-react@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/mson-react/-/mson-react-1.0.7.tgz#3ffd540a2ff9cf6ac4b5bfba0af661817bb07800"
+mson-react@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/mson-react/-/mson-react-1.1.1.tgz#8fe19465c36b4ef193626f4f3a2cb8aa2b16fb40"
   dependencies:
     date-fns "^2.0.0-alpha.16"
+    jest-dom "^2.1.0"
     lodash "^4.17.10"
     react-beautiful-dnd "^9.0.2"
     react-google-recaptcha "^1.0.0"
     react-markdown "^4.0.0"
     react-router-dom "^4.3.1"
     react-select "^2.1.0"
+    react-testing-library "^5.2.3"
     react-text-mask "^5.4.3"
     text-mask-addons "^3.8.0"
 
-mson@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/mson/-/mson-1.0.7.tgz#19d3240fac96f1f37cec75ab15a25a5ecd70123d"
-  integrity sha512-t0+Bh0LjgQjLoaJ/Yxr3R1Udl9lYZUkulqkucFjJchbdCGPLvwF74qGlI7R7OhQGG9H/UZ6yXXFKBBA/U+haYA==
+mson@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/mson/-/mson-1.1.1.tgz#9f7d5c54156843ecee3c5fecc0bddf0293ee5228"
   dependencies:
     "@babel/runtime" "^7.1.2"
     country-telephone-data "^0.6.0"
@@ -7395,6 +7430,12 @@ react-select@^2.1.0:
     react-input-autosize "^2.2.1"
     react-transition-group "^2.2.1"
 
+react-testing-library@^5.2.3:
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/react-testing-library/-/react-testing-library-5.2.3.tgz#c3be44bfa5eb1ba2acc1fb218785c40ebbdfe8ed"
+  dependencies:
+    dom-testing-library "^3.12.0"
+
 react-text-mask@=5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/react-text-mask/-/react-text-mask-5.4.1.tgz#c3dd3e550e31d38b7c9da0178a2725960770e443"
@@ -7506,6 +7547,13 @@ recursive-readdir@2.2.2:
   resolved "https://registry.yarnpkg.com/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
   dependencies:
     minimatch "3.0.4"
+
+redent@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/redent/-/redent-2.0.0.tgz#c1b2007b42d57eb1389079b3c8333639d5e1ccaa"
+  dependencies:
+    indent-string "^3.0.0"
+    strip-indent "^2.0.0"
 
 reduce-css-calc@^2.0.0:
   version "2.1.5"
@@ -8106,7 +8154,7 @@ source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
 
-source-map-resolve@^0.5.0:
+source-map-resolve@^0.5.0, source-map-resolve@^0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.2.tgz#72e2cc34095543e43b2c62b2c4c10d4a9054f259"
   dependencies:
@@ -8358,6 +8406,10 @@ strip-comments@^1.0.2:
 strip-eof@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/strip-eof/-/strip-eof-1.0.0.tgz#bb43ff5598a6eb05d89b59fcd129c983313606bf"
+
+strip-indent@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strip-indent/-/strip-indent-2.0.0.tgz#5ef8db295d01e6ed6cbf7aab96998d7822527b68"
 
 strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   version "2.0.1"
@@ -8959,6 +9011,10 @@ w3c-hr-time@^1.0.1:
   resolved "https://registry.yarnpkg.com/w3c-hr-time/-/w3c-hr-time-1.0.1.tgz#82ac2bff63d950ea9e3189a58a65625fedf19045"
   dependencies:
     browser-process-hrtime "^0.1.2"
+
+wait-for-expect@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/wait-for-expect/-/wait-for-expect-1.0.1.tgz#73ab346ed56ed2ef66c380a59fd623755ceac0ce"
 
 walker@~1.0.5:
   version "1.0.7"
