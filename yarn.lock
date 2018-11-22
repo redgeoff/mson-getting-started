@@ -745,6 +745,18 @@
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
 
+"@date-io/core@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@date-io/core/-/core-0.0.2.tgz#35be27d26eb652e752ccfbffe624c95169200dbd"
+  integrity sha512-rkanRee2Agpw3tZLaCGJxkNRzi7FdyqueQDmEZAgZfIQaPo0MoOrO0gcTGwhTNREV8+OBKiZLpbaHK79dsU/Wg==
+
+"@date-io/date-fns@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-0.0.2.tgz#1604546d080707b73185a135db197598cfd16e6d"
+  integrity sha512-MGcRweZCAQ3O2RNfwflH9zF2MgwNpYxRBpcVm4adhyZLKxG4xUQTJvQ/BtO93/MEbjcpGgNS0Yfej/96eTKFfQ==
+  dependencies:
+    "@date-io/core" "^0.0.2"
+
 "@emotion/babel-utils@^0.6.4":
   version "0.6.10"
   resolved "https://registry.yarnpkg.com/@emotion/babel-utils/-/babel-utils-0.6.10.tgz#83dbf3dfa933fae9fc566e54fbb45f14674c6ccc"
@@ -5493,9 +5505,10 @@ markdown-escapes@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.2.tgz#e639cbde7b99c841c0bacc8a07982873b46d2122"
 
-material-ui-pickers@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/material-ui-pickers/-/material-ui-pickers-1.0.1.tgz#396f90fff2f2dbb7c477bce2b9a62101eb3bd26d"
+material-ui-pickers@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/material-ui-pickers/-/material-ui-pickers-2.0.2.tgz#56b9756254fefd32251ede03af2414ff21572cb5"
+  integrity sha512-c3reNpv4ytl1DdV2+zxRDKD3obL+TjrKlWtK4P4KxcbG/hja6zAO8wwwi578YjxvTDooX9Y1pzpvBwLCYu05zQ==
   dependencies:
     classnames "^2.2.6"
     keycode "^2.2.0"
