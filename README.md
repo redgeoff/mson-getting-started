@@ -26,6 +26,12 @@ store: {
 }
 ```
 
+You'll also have to edit [index.html](public/index.html) and add:
+```
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase-firestore.js"></script>
+```
+
 After configuring the FirebaseStore, you'll be able to edit your contacts in one browser window and see them update in real time in another browser window.
 
 ## create-react-app
