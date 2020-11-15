@@ -1,5 +1,5 @@
 # mson-getting-started
-[![Circle CI](https://circleci.com/gh/redgeoff/mson-getting-started.svg?style=svg&circle-token=5218503cb99b212557c16889c410659540930b90)](https://circleci.com/gh/redgeoff/mson-getting-started) [![Greenkeeper badge](https://badges.greenkeeper.io/redgeoff/mson-getting-started.svg)](https://greenkeeper.io/)
+[![Circle CI](https://circleci.com/gh/redgeoff/mson-getting-started.svg?style=svg&circle-token=5218503cb99b212557c16889c410659540930b90)](https://circleci.com/gh/redgeoff/mson-getting-started)
 
 This is a sample app that will get you started with [MSON](https://github.com/redgeoff/mson). You can think of it as a "Hello World" type app that displays a simple list of contacts that can be edited, filtered and sorted.
 
