@@ -11,9 +11,9 @@
     "mson-react": "^1.6.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
-    "react-dom": "^16.13.1",
+    "react-dom": "^17.0.1",
     "react-scripts": "^4.0.1",
-    "typeface-roboto": "^0.0.75"
+    "typeface-roboto": "^1.1.13"
   },
   "scripts": {
     "start": "react-scripts start",
